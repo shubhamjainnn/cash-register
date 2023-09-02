@@ -1,5 +1,84 @@
+:root {
+  display: grid;
+  place-items: center;
+  --primary-color: #e3151c89;
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+input {
+  max-width: 400px;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  text-align: center;
+  display: block;
+  border-color: var(--primary-color);
+}
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+th,
+td {
+  margin: auto;
+  border: 2px solid;
+  font-size: large;
+  width: 50%;
+  border-collapse: collapse;
+  padding: 0.4rem 2rem;
+  border-color: var(--primary-color);
+}
+
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: red;
+  font-size: large;
+}
+
+caption {
+  font-size: larger;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--primary-color);
+}
+
+input,
+label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: larger;
+}
+
+.para {
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: large;
 }
